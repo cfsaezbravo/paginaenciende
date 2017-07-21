@@ -11,6 +11,7 @@ body{
 	background-position: center;
 	background-size: cover;
 	background-attachment: fixed;
+	position: relative;
 }
 
 /*Navbar*/
@@ -113,13 +114,17 @@ nav ul a{
 /*¿Qué es Enciende*/
 
 
-.que-es-enciende{
+#que-es-enciende{
 	width: 700px;
 }
 
 /*Expositores*/
 
-.expositores-title{
+.expositores2 a{
+	margin: 15px;
+}
+
+#expositores-title{
 	width: 700px;
 }
 
@@ -128,20 +133,53 @@ nav ul a{
 	margin: 20px;
 }
 
+.modal-overlay{
+	background: rgba(255, 255, 255, 0.1);
+}
+
 .scott-thompson{
-	transform:rotate(3deg);
+	margin: 0px;
 }
 
 .leif-hetland{
-	transform:rotate(-3deg);
 	margin-left: -17px;
 	z-index: -1;
+	margin: 0px;
 }
 
 .jaz-jacob{
 	z-index: 1000;
+	padding: 0px;
+	margin: 0px;
 }
 
+.menny-escobar{
+	margin: 0px;
+}
+
+.btn-jaz{
+	height: 450px;
+    width: 272px;
+    padding: 0px;
+}
+
+.btn-leif{
+	height: 450px;
+    width: 272px;
+    padding: 0px;
+}
+
+.btn-menny{
+	height: 450px;
+    width: 272px;
+    padding: 0px;
+}
+
+.btn-scott{
+	height: 450px;
+    width: 272px;
+    padding: 0px;
+}
 /*Footer*/
 
 .page-footer {
@@ -175,5 +213,4 @@ nav ul a{
 .sitios{
 	margin-top: 10px;
 }
-
 

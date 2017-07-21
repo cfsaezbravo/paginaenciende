@@ -9,15 +9,11 @@
 	<meta name="author" content="Camila Sáez">
   <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Poppins:700" rel="stylesheet">
-	<!-- Compiled and minified CSS -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
-	<!-- Fontawesome -->
 	<script src="https://use.fontawesome.com/d2c9b2c5c1.js"></script>
-	<!-- Google Font -->
 	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,900" rel="stylesheet">
-	<!--Import Google Icon Font-->
   <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <!--CSS local-->
+  <link rel="shortcut icon" type="image/png" href="assets/img/iconoenciendeamarillo.png">
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
@@ -31,18 +27,18 @@
       			<a href="#!" class="brand-logo"><img src="assets/img/NEON-logo-blanco.png" alt=""></a>
       			<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
       			<ul class="right hide-on-med-and-down">
-        			<li class='que-es'><a href="sass.html">¿Qué es Enciende?</a></li>
-        			<li class='comunidad'><a href="badges.html">Comunidad</a></li>			
-        			<li class='expositores'><a href="collapsible.html">Expositores</a></li>
-        			<li class='plm'><a href="mobile.html">Prendiendo la Mecha</a></li>
-              <li class='download'><a href="mobile.html">Descargas</a></li>
+        			<li class='que-es'><a href="#que-es-enciende">¿Qué es Enciende?</a></li>
+        			<!--<li class='comunidad'><a href="badges.html">Comunidad</a></li>-->			
+        			<li class='expositores'><a href="#expositores-title">Expositores</a></li>
+        			<!--<li class='plm'><a href="mobile.html">Prendiendo la Mecha</a></li>-->
+              <!--<li class='download'><a href="mobile.html">Descargas</a></li>-->
       			</ul>
       			<ul class="side-nav" id="mobile-demo">
-        			<li><a href="sass.html">¿Qué es Enciende?</a></li>
-        			<li><a href="badges.html">Comunidad</a></li>
-        			<li><a href="collapsible.html">Expositores</a></li>
-        			<li><a href="mobile.html">Prendiendo la Mecha</a></li>
-              <li><a href="mobile.html">Descargas</a></li>
+        			<li><a href="#que-es-enciende">¿Qué es Enciende?</a></li>
+        			<!--<li><a href="badges.html">Comunidad</a></li>-->
+        			<li><a href="#expositores-title">Expositores</a></li>
+        			<!--<li><a href="mobile.html">Prendiendo la Mecha</a></li>-->
+              <!--<li><a href="mobile.html">Descargas</a></li>-->
       			</ul>
     		</div>
   	</nav>
@@ -52,7 +48,7 @@
 	<section class="first-part">
 		<div class="container first-part responsive-img">
 			<div class="row">
-      <div class="fixed-action-btn">
+      <!--<div class="fixed-action-btn">
     		<a class="btn-floating btn-large pink">
       		<i class="large material-icons"><i class="material-icons">create</i></i>
     		</a>
@@ -61,7 +57,7 @@
       		<li><a class="btn-floating green"><i class="material-icons">file_download</i></a></li>
       		<li><a class="btn-floating blue"><i class="material-icons">attach_money</i></a></li>
     		</ul>
-  		</div>
+  		</div>-->
     </div>
   </div>
 	</section>
@@ -71,21 +67,67 @@
   <section class="second-part">
     <div class="container-fluid">
       <div class="row center">
-          <img class='que-es-enciende' src="assets/img/que-es-enciende.png" alt="">
+          <img id='que-es-enciende' src="assets/img/que-es-enciende.png" alt="">
       </div>
       <div class="row center">
           <div class="col l6 m6 s12">
             <img src="assets/img/TEXTO.png" alt="">
           </div>
+          <div class="col l6 m6 hide-on-small-only">
+            <img src="assets/img/imagen_lateral_3.png" alt="">
+          </div>
       </div>
       <div class="row center">
-        <img class='expositores-title' src="assets/img/expositores.png" alt="">
+        <img id='expositores-title' src="assets/img/expositores.png" alt="">
       </div>
       <div class="row expositores2 center">
-        <img src="assets/img/jaz-enciende.jpg" alt="" class="expo jaz-jacob">
-        <img src="assets/img/leif-enciende.jpg" alt="" class="expo leif-hetland">
-        <img src="assets/img/menny-enciende.jpg" alt="" class="expo">
-        <img src="assets/img/scott-enciende.jpg" alt="" class="expo scott-thompson">
+          <a class="waves-effect waves-light btn modal-trigger btn-jaz" href="#modal1"><img src="assets/img/jaz-enciende.jpg" alt="" class="expo jaz-jacob"></a>
+          <div id="modal1" class="modal">
+            <div class="modal-content">
+              <h4>Jaz Jacob</h4>
+              <p>Predicadora y ministro de alabanza española. Su deseo es que la iglesia local en todo el mundo se enamore más de Cristo a través de un mensaje de esperanza y gozo. Actualmente dirige su escuela ministerial,<a href="http://escuelaculturareal.com/">Cultura Real</a>, en España.<br>
+              A lo largo de los años, ha habido cientos de personas que han dado su vida a Cristo a través de su canción "Perfume a tus pies" y miles se han enamorado más de Él a través de ella.
+              Reside en España, donde  sirve junto con su marido.</p>
+            </div>
+            <div class="modal-footer">
+              <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat"><i class="material-icons">close</i></a>
+            </div>
+          </div>
+          <a class="waves-effect waves-light btn modal-trigger btn-leif" href="#modal2"><img src="assets/img/leif-enciende.jpg" alt="" class="expo leif-hetland"></a>
+          <div id="modal2" class="modal">
+            <div class="modal-content">
+              <h4>Leif Hetland</h4>
+              <p>Esposo, padre de cuatro hijos, evangelista, escritor, presidente y fundador de  Global Mission Awareness (GMA), ministerio que ha impactado a 87 naciones en los 6 continentes, llegando a más de un millón de personas con el mensaje del corazón del Padre.<br>
+              Ha viajado por todo el mundo motivando a las personas a ver el Reino de Dios en la tierra como en el cielo. Con su ministerio ha logrado penetrar en lugares donde se consideraba imposible llegar con el evangelio. El amor ha derretido la dureza de los corazones y literalmente ha transformado regiones hostiles hacia Dios. Más de un millón de personas han sido salvas durante sus años de ministerio.</p>
+            </div>
+            <div class="modal-footer">
+              <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat"><i class="material-icons">close</i></a>
+            </div>
+          </div>
+          <a class="waves-effect waves-light btn modal-trigger btn-leif" href="#modal3"><img src="assets/img/menny-enciende.jpg" alt="" class="expo menny-escobar"></a>
+          <div id="modal3" class="modal">
+            <div class="modal-content">
+              <h4>Menny Escobar</h4>
+              <p>Nacido en México.  Esposo de Damaris y Padre de 2 hijos.  Conferencista internacional y fundador de Peligro de Extinción (Ministerio de evangelismo en colegios, calles, subtes, trenes y plazas) donde se han alcanzado miles de jóvenes con el amor y la palabra de Dios.
+              Ejerció como pastor en la Iglesia Rey de Reyes del Dr. Claudio Freidzon en Buenos Aires, Argentina colaborando con el ministerio de adolescentes llamado DNI (Dios Nuestra Identidad) El creador de "Punto de Encuentro"
+              Actualmente, continúa desarrollando su llamado a las naciones, equipando líderes e inspirando a su generación  a apasionarse y enamorarse más de Dios. 
+              </p>
+            </div>
+            <div class="modal-footer">
+              <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat"><i class="material-icons">close</i></a>
+            </div>
+          </div>
+          <a class="waves-effect waves-light btn modal-trigger btn-leif" href="#modal4"><img src="assets/img/scott-enciende.jpg" alt="" class="expo scott-thompson"></a>
+          <div id="modal4" class="modal">
+            <div class="modal-content">
+              <h4>Scott Thompson</h4>
+              <p>Pastor, escritor y conferencista. Casado, padre de tres hijos. Fundador de Transcendent Life Ministries; organización sin fines de lucro que busca llevar el Reino alrededor del mundo.  Su llamado es a romper cadenas de esta generación para que prediquen un auténtico evangelio a través del amor radical y demostraciones de poder.  
+              </p>
+            </div>
+            <div class="modal-footer">
+              <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat"><i class="material-icons">close</i></a>
+            </div>
+          </div>
       </div>
     </div>
   </section>
